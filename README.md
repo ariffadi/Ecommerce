@@ -15,14 +15,17 @@
     ```bash
     cd code .
     ```
+    
 4. **composer install**
     ```bash
     composer install .
     ```
+    
 5 **Generet Kunci Aplikasi**: 
  ```bash
    php artisan key:generate
  ```
+
 6. Setup Environment:
 
     -Duplikat file .env.example menjadi .env atau bisa menjalankan perintah: cp .env.example .env
