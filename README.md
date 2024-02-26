@@ -18,15 +18,10 @@
     
 4. **composer install**
     ```bash
-    composer install .
+    composer install
     ```
     
-5 **Generet Kunci Aplikasi**: 
- ```bash
-   php artisan key:generate
- ```
-
-6. Setup Environment:
+5. Setup Environment:
 
     -Duplikat file .env.example menjadi .env atau bisa menjalankan perintah: cp .env.example .env
 
@@ -34,6 +29,13 @@
 
     -Buat Database di PhpmyAdmin dengan penamaan 'app_eccomerce' lalu buka database yang baru di buat dan import database yang bernama 'app_eccomerce.sql' yang berada di file paling luar di folder ini
    
+    
+6 **Generet Kunci Aplikasi**: 
+ ```bash
+   php artisan key:generate
+ ```
+
+
 7 **Jalankan server Pembangun**: 
  ```bash
    php artisan serve
